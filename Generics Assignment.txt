@@ -1,0 +1,79 @@
+1. package emp; 
+import java.util.HashSet;
+public class employee {
+      	public static void main(String[] args)
+	{	
+      HashSet<String>sc=new HashSet<String>();
+      sc.add("Tejaswi");
+      System.out.println(sc);
+      HashSet<Integer>sc1=new HashSet<Integer>();
+      sc1.add(1);
+      System.out.println(sc1);
+      HashSet<String>sc2=new HashSet<>();
+      sc2.add("Praveen");
+      System.out.println(sc2);
+      HashSet<Integer>sc3=new HashSet<Integer>();
+      sc3.add(10000);
+      System.out.println(sc3);
+	}
+}
+
+
+
+
+2.import java.util.HashMap;
+     public class Hashmap {
+      public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Map<key,value> map=new HashMap<>();
+	    map<Integer,Double> map=new Hashmap<>();
+			map.put(34, 33.9);
+			map.put(67, 67.7);
+			map.put(96, 56.7);
+			map.put(35, 3.5);
+			map.put(11, 33.9);
+			map.put(25, 5.9);
+			map.put(99, 89.8);
+			map.put(56, 23.5);
+			map.put(84, 98.5);
+			map.put(54, 87.6);
+		   System.out.println(map);
+   }
+}
+
+3.import java.util.Arrays;
+  public class Differentelements {
+  public static <T> void swap(T[]a,int i,int j) {
+	  T temp=a[i];
+	  a[i]=a[j];
+	  a[j]=temp;
+  }
+  public static void main(String args[]) {
+	  String[] a= {"1","2","3"};
+	  System.out.println("before: "+Arrays.toString(a));
+	  swap(a,0,2);
+	  System.out.println("after:"+Arrays.toString(a));
+	  
+  }
+}
+
+
+
+  4.(a) import java.util.*;
+    public class Pairproperties {
+     public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String,String> map=new HashMap<>();
+		        map.put("Hi", "2");
+	map.put("hello", "4");
+        System.out.println(map);
+	 }
+ }
+
+     (b)  import.java.util.*;
+      	 public class Stringproperties {
+	    Map<String,Date> map=new HashMap<>();
+	   map.put("Today is", new java.util.Date())
+	   System.out.println(map);
+}
+
